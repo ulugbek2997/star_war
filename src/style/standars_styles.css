@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  padding: 0 15px;
+}
+
+.container-sm{
+  display: flex;
+  width: 70%;
+}
+
+p ,h2,h4, span{
+  color:white
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.bg-dark{
+  background-color: #222;
+}
+
+.App{
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.d-flex{
+  display: flex;
+}

@@ -1,0 +1,38 @@
+.card{
+  width: 55%;
+  margin-left: 5%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #303030;
+  column-gap: 20px;
+}
+
+.card_img{
+  width: 150px;
+  height: 200px;
+}
+
+.card_img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.card ul{
+  display: block;
+}
+
+.card li{
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+.card li~li{
+  margin-top: 15px;
+}
+
+.card li:not(:last-child){
+  border-bottom: solid 1px #444;
+}
